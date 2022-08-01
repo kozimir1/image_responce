@@ -1,0 +1,10 @@
+.main__container {
+	text-align: center;
+}
+.image img {
+	margin: 0px 3px 3px 0px;
+	vertical-align: top;
+}
+form {
+	margin: 0px 0px 1rem 0px;
+}
