@@ -93,7 +93,7 @@ body {
 .input::placeholder {
 	color: gray;
 }
-button {
+.main button {
 	min-height: 40px;
 	padding: 5px 20px;
 	background-color: rgb(234, 231, 231);
@@ -108,7 +108,7 @@ button:hover {
 }
 .main__container {
 	text-align: center;
-	padding: 0px 15px;
+	padding: 10px 15px;
 }
 .image img {
 	margin: 0px 3px 3px 0px;
