@@ -93,7 +93,9 @@ body {
 .input::placeholder {
 	color: gray;
 }
-.main button {
+.button,
+.remove-all,
+.btn-get-task {
 	min-height: 40px;
 	padding: 5px 20px;
 	background-color: rgb(234, 231, 231);
