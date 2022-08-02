@@ -6,24 +6,28 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>Document</title>
+	<title>get image & todo list</title>
 </head>
 
 <body>
 	<div class="main">
 		<div class="main__container">
 			<form action="">
-				<input type="number" class="input">
+				<input placeholder='цифры выводят картинку, символы todoList' type="text" class="input">
 				<button type="submit" class="button">получить картинку</button>
-				<button type="submit" class="remove-all">удалить все</button>
+				<button type="submit" class="remove-all">удалить картинки</button>
+				<button type="submit" class="btn-get-task">добавить/получить Task</button>
 			</form>
+			<ul class="list">
+			</ul>
 			<div class="image"></div>
 		</div>
 	</div>
-
-	<script src="app.js"></script>
-	<script src="service.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="service.js"></script>
+	<script src="app.js"></script>
+
+
 </body>
 
 </html>
