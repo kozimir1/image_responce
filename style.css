@@ -83,9 +83,9 @@ body {
 }
 
 .input {
-	height: 30px;
+	height: 40px;
 	border: 1px solid black;
-	width: 300px;
+	width: 295px;
 	border-radius: 5px;
 	padding: 0px 5px;
 	margin: 0px 0px 10px 0px;
@@ -105,9 +105,12 @@ body {
 	margin: 0px 0px 10px 0px;
 	color: black;
 }
-button:hover {
-	background-color: white;
+@media (any-hover: hover) {
+	button:hover {
+		background-color: white;
+	}
 }
+
 .main__container {
 	text-align: center;
 	padding: 10px 15px;
@@ -150,6 +153,12 @@ form {
 	color: black;
 }
 
-.list__button:hover {
-	background-color: rgb(234, 231, 231);
+@media (any-hover: hover) {
+	.list__button:hover {
+		background-color: rgb(234, 231, 231);
+	}
+}
+.list__button:disabled {
+	background-color: lightgray;
+	opacity: 0.3;
 }
